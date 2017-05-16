@@ -6,7 +6,9 @@
     "require": {
         "php": "^7.0",
         "wordplate/framework": "^5.1",
-        "wordplate/plate": "^2.3"
+        "wordplate/plate": "^2.3",
+        "wpackagist-plugin/advanced-custom-fields": "^4.4",
+        "wpackagist-plugin/acf-to-rest-api": "^2.2"
     },
     "repositories": [
         {
