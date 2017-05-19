@@ -6,10 +6,16 @@ declare(strict_types=1);
 require template_path('library/plate.php');
 
 require get_template_directory().'/post-types/course.php';
+// Register location taxonomy for the employee custom post type.
+require get_template_directory().'/taxonomies/course_category.php';
+
 // Register employee custom post type.
 require get_template_directory().'/post-types/employee.php';
 // Register location taxonomy for the employee custom post type.
 require get_template_directory().'/taxonomies/location.php';
+
+require get_template_directory().'/fields/index.php';
+
 
 // Add theme supported features.
 add_action('after_setup_theme', function () {
