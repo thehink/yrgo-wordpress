@@ -5,6 +5,8 @@ declare(strict_types=1);
 // Register plugin helpers.
 require template_path('library/plate.php');
 
+require get_template_directory().'/default-pages/index.php';
+
 require get_template_directory().'/post-types/course.php';
 // Register location taxonomy for the employee custom post type.
 require get_template_directory().'/taxonomies/course_category.php';
