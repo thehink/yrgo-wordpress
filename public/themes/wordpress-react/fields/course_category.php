@@ -4,13 +4,14 @@ declare(strict_types=1);
 
 array_push($fields, [
     'key' => 'course_category',
-    'title' => 'Course Category',
+    'title' => 'Info',
     'fields' => [
         [
             'key' => 'sub_heading',
             'label' => 'Sub Heading',
             'name' => 'sub_heading',
-            'type' => 'text'
+            'type' => 'text',
+            'required' => 1,
         ]
     ],
     'location' => [
@@ -22,5 +23,5 @@ array_push($fields, [
             ],
         ],
     ],
-    'hide_on_screen' => ['the_content', 'categories'],
+    'hide_on_screen' => [],
 ]);

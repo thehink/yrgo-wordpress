@@ -3,17 +3,25 @@
 declare(strict_types=1);
 
 array_push($fields, [
-    'key' => 'group_1',
+    'key' => 'course',
     'title' => 'Course',
     'fields' => [
         [
-            'key' => 'course_category',
+            'key' => 'course_category_ref',
             'label' => 'Course Category',
-            'name' => 'course_category',
+            'name' => 'category',
             'type' => 'taxonomy',
             'taxonomy' => 'course_category',
             'field_type' => 'select',
             'return_format' => 'id',
+            'required' => 1,
+        ],
+        [
+            'key' => 'course_thumb',
+            'label' => 'Thumbnail',
+            'name' => 'thumbnail',
+            'type' => 'image',
+            'return_format' => 'url'
         ]
     ],
     'location' => [
@@ -25,5 +33,5 @@ array_push($fields, [
             ],
         ],
     ],
-    'hide_on_screen' => ['the_content', 'categories'],
+    'hide_on_screen' => ['categories'],
 ]);
