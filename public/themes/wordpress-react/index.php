@@ -7,8 +7,7 @@
                 <h1><?php the_title(); ?></h1>
             </header>
             <pre>
-                <?php print_r(WPSEO_Frontend::get_instance()->title(false)); ?>
-                <?php print_r(get_option( 'wpseo_titles' )); ?>
+
             </pre>
 
             <?php the_content(); ?>
