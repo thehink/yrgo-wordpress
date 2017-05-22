@@ -10,9 +10,3 @@
   <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
 </head>
 <body <?php body_class(); ?>>
-
-    <header>
-        <nav role="navigation">
-            <?php wp_nav_menu(['theme_location' => 'primary-menu']); ?>
-        </nav>
-    </header>

@@ -22,6 +22,13 @@ array_push($fields, [
             'name' => 'thumbnail',
             'type' => 'image',
             'return_format' => 'url'
+        ],
+        [
+            'key' => 'course_thumb',
+            'label' => 'Thumbnail',
+            'name' => 'thumbnail',
+            'type' => 'image',
+            'return_format' => 'url'
         ]
     ],
     'location' => [
