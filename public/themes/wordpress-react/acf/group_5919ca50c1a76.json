@@ -186,6 +186,28 @@
             "new_lines": "wpautop"
         },
         {
+            "key": "field_59274381689e8",
+            "label": "Contact Person",
+            "name": "contact_person",
+            "type": "post_object",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "post_type": [
+                "staff"
+            ],
+            "taxonomy": [],
+            "allow_null": 0,
+            "multiple": 0,
+            "return_format": "id",
+            "ui": 1
+        },
+        {
             "key": "field_59234f20e4750",
             "label": "Images",
             "name": "",
@@ -453,63 +475,26 @@
             "button_label": "",
             "sub_fields": [
                 {
-                    "key": "field_592350145b18b",
-                    "label": "Name",
-                    "name": "name",
-                    "type": "text",
+                    "key": "field_5927452c8ae74",
+                    "label": "Partner",
+                    "name": "partner",
+                    "type": "post_object",
                     "instructions": "",
-                    "required": 0,
+                    "required": 1,
                     "conditional_logic": 0,
                     "wrapper": {
                         "width": "",
                         "class": "",
                         "id": ""
                     },
-                    "default_value": "",
-                    "placeholder": "",
-                    "prepend": "",
-                    "append": "",
-                    "maxlength": ""
-                },
-                {
-                    "key": "field_5923501e5b18c",
-                    "label": "Url",
-                    "name": "url",
-                    "type": "url",
-                    "instructions": "",
-                    "required": 0,
-                    "conditional_logic": 0,
-                    "wrapper": {
-                        "width": "",
-                        "class": "",
-                        "id": ""
-                    },
-                    "default_value": "",
-                    "placeholder": ""
-                },
-                {
-                    "key": "field_59234fea5b18a",
-                    "label": "Thumbnail",
-                    "name": "thumbnail",
-                    "type": "image",
-                    "instructions": "",
-                    "required": 0,
-                    "conditional_logic": 0,
-                    "wrapper": {
-                        "width": "",
-                        "class": "",
-                        "id": ""
-                    },
-                    "return_format": "url",
-                    "preview_size": "thumbnail",
-                    "library": "all",
-                    "min_width": "",
-                    "min_height": "",
-                    "min_size": "",
-                    "max_width": "",
-                    "max_height": "",
-                    "max_size": "",
-                    "mime_types": ""
+                    "post_type": [
+                        "partner"
+                    ],
+                    "taxonomy": [],
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "return_format": "id",
+                    "ui": 1
                 }
             ]
         },
@@ -846,5 +831,5 @@
     ],
     "active": 1,
     "description": "",
-    "modified": 1495573392
+    "modified": 1495746000
 }
