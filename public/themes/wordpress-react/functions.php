@@ -22,8 +22,8 @@ require get_template_directory().'/fields/index.php';
 
 // add_action( 'rest_api_init', 'slug_register_starship' );
 // function slug_register_starship() {
-//     register_rest_field( ['course', 'page', 'course_category'],
-//         'page_meta',
+//     register_rest_field( ['staff'],
+//         '_links',
 //         array(
 //             'get_callback'    => 'slug_get_starship',
 //             'update_callback' => null,
@@ -32,21 +32,10 @@ require get_template_directory().'/fields/index.php';
 //     );
 // }
 //
-// add_filter( 'acf/rest_api/field_settings/show_in_rest', '__return_true' );
-//
 // function slug_get_starship( $object, $field_name, $request ) {
 //     global $post;
-//     // return get_post_meta( $object[ 'id' ], "", true );
-//     $post = get_post($object['id']);
-//     return [
-//         'title' => WPSEO_Frontend::get_instance()->get_content_title($post),
-//         'description' => '',
-//         'type' => '',
-//         'locale' => '',
-//         'url' => '',
-//         'site_name' => '',
-//         'test' => ''
-//     ];
+//
+//     return [];
 // }
 
 

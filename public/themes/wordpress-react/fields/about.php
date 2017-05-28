@@ -18,7 +18,7 @@ array_push($fields, [
             'key' => 'yrgo_description',
             'label' => 'Description',
             'name' => 'description',
-            'type' => 'textarea',
+            'type' => 'wysiwyg',
             'required' => 1
         ]
     ],

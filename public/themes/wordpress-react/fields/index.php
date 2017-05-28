@@ -9,6 +9,7 @@ function my_acf_add_local_field_groups() {
     require get_template_directory().'/fields/course_category.php';
     require get_template_directory().'/fields/home.php';
     require get_template_directory().'/fields/about.php';
+    require get_template_directory().'/fields/contact.php';
 
     foreach ($fields as $field) {
         acf_add_local_field_group($field);
