@@ -12,6 +12,13 @@ array_push($fields, [
             'name' => 'sub_heading',
             'type' => 'text',
             'required' => 1,
+        ],
+        [
+            'key' => 'about_description',
+            'label' => 'About',
+            'name' => 'about',
+            'type' => 'wysiwyg',
+            'required' => 1
         ]
     ],
     'location' => [
@@ -23,5 +30,5 @@ array_push($fields, [
             ],
         ],
     ],
-    'hide_on_screen' => [],
+    'hide_on_screen' => ['content', 'description', 'term-description', 'term-description-wrap'],
 ]);
