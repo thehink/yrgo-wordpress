@@ -3,25 +3,6 @@
     "title": "Course",
     "fields": [
         {
-            "key": "field_59235ad002fb9",
-            "label": "About",
-            "name": "about",
-            "type": "wysiwyg",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "default_value": "",
-            "tabs": "all",
-            "toolbar": "full",
-            "media_upload": 1,
-            "delay": 0
-        },
-        {
             "key": "field_591f17625143c",
             "label": "Course Category",
             "name": "category",
@@ -58,6 +39,66 @@
             },
             "placement": "top",
             "endpoint": 0
+        },
+        {
+            "key": "field_59235ad002fb9",
+            "label": "About",
+            "name": "about",
+            "type": "wysiwyg",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0
+        },
+        {
+            "key": "field_59235381873ee",
+            "label": "Information",
+            "name": "additional_information",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": "wpautop"
+        },
+        {
+            "key": "field_59274381689e8",
+            "label": "Contact Person",
+            "name": "contact_person",
+            "type": "post_object",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "post_type": [
+                "staff"
+            ],
+            "taxonomy": [],
+            "allow_null": 0,
+            "multiple": 0,
+            "return_format": "id",
+            "ui": 1
         },
         {
             "key": "field_5923532b873ec",
@@ -148,25 +189,6 @@
             "step": ""
         },
         {
-            "key": "field_59235381873ee",
-            "label": "Additional Information",
-            "name": "additional_information",
-            "type": "textarea",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "default_value": "",
-            "placeholder": "",
-            "maxlength": "",
-            "rows": "",
-            "new_lines": "wpautop"
-        },
-        {
             "key": "field_5924a36de8408",
             "label": "Lia",
             "name": "lia",
@@ -184,28 +206,6 @@
             "maxlength": "",
             "rows": "",
             "new_lines": "wpautop"
-        },
-        {
-            "key": "field_59274381689e8",
-            "label": "Contact Person",
-            "name": "contact_person",
-            "type": "post_object",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "post_type": [
-                "staff"
-            ],
-            "taxonomy": [],
-            "allow_null": 0,
-            "multiple": 0,
-            "return_format": "id",
-            "ui": 1
         },
         {
             "key": "field_59234f20e4750",
@@ -898,5 +898,5 @@
     ],
     "active": 1,
     "description": "",
-    "modified": 1495998432
+    "modified": 1496014642
 }
