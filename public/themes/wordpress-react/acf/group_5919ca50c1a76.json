@@ -63,7 +63,7 @@
             "key": "field_59235381873ee",
             "label": "Information",
             "name": "additional_information",
-            "type": "textarea",
+            "type": "wysiwyg",
             "instructions": "",
             "required": 0,
             "conditional_logic": 0,
@@ -73,10 +73,10 @@
                 "id": ""
             },
             "default_value": "",
-            "placeholder": "",
-            "maxlength": "",
-            "rows": "",
-            "new_lines": "wpautop"
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0
         },
         {
             "key": "field_59274381689e8",
@@ -898,5 +898,5 @@
     ],
     "active": 1,
     "description": "",
-    "modified": 1496014642
+    "modified": 1496055840
 }
