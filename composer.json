@@ -8,9 +8,9 @@
         "wordplate/framework": "^5.1",
         "wordplate/plate": "^2.3",
         "wpackagist-plugin/advanced-custom-fields": "^4.4",
-        "wpackagist-plugin/acf-to-rest-api": "^2.2",
         "wpackagist-plugin/wordpress-seo": "^4.7",
-        "wpackagist-plugin/yoast-seo-acf-analysis": "^1.2"
+        "wpackagist-plugin/yoast-seo-acf-analysis": "^1.2",
+        "airesvsg/acf-to-rest-api": "3.0.1-beta"
     },
     "repositories": [
         {

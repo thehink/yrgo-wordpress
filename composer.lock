@@ -4,9 +4,54 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "f7c2cb1e6150ee24609d7d948fc59c8a",
-    "content-hash": "80f9174a742caeda867ca4fe3205490b",
+    "hash": "8c0c2641cffcee809bebc9f3da58e9fe",
+    "content-hash": "c4b449b731ef1dca127b850638b01b76",
     "packages": [
+        {
+            "name": "airesvsg/acf-to-rest-api",
+            "version": "3.0.1-beta",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/airesvsg/acf-to-rest-api.git",
+                "reference": "42dea4edcddbaac88148b150e1729981ff1a07b9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/airesvsg/acf-to-rest-api/zipball/42dea4edcddbaac88148b150e1729981ff1a07b9",
+                "reference": "42dea4edcddbaac88148b150e1729981ff1a07b9",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0",
+                "php": ">=5.3.2"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPLv2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Aires Gonçalves",
+                    "email": "airesvsg@gmail.com",
+                    "homepage": "http://airesgoncalves.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Exposes Advanced Custom Fields Endpoints in the WordPress REST API",
+            "homepage": "https://github.com/airesvsg/acf-to-rest-api",
+            "keywords": [
+                "acf",
+                "fields",
+                "json",
+                "rest-api",
+                "wordpres-plugin",
+                "wordpress",
+                "wp",
+                "wp-api"
+            ],
+            "time": "2017-04-04 12:46:19"
+        },
         {
             "name": "composer/installers",
             "version": "v1.3.0",
@@ -863,26 +908,6 @@
             "time": "2017-03-14 08:53:20"
         },
         {
-            "name": "wpackagist-plugin/acf-to-rest-api",
-            "version": "2.2.1",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/acf-to-rest-api/",
-                "reference": "tags/2.2.1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/acf-to-rest-api.2.2.1.zip",
-                "reference": "tags/2.2.1",
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/acf-to-rest-api/"
-        },
-        {
             "name": "wpackagist-plugin/advanced-custom-fields",
             "version": "4.4.11",
             "source": {
@@ -913,7 +938,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/wordpress-seo.4.7.1.zip",
-                "reference": null,
+                "reference": "tags/4.7.1",
                 "shasum": null
             },
             "require": {
@@ -933,7 +958,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/yoast-seo-acf-analysis.1.2.0.zip",
-                "reference": null,
+                "reference": "tags/1.2.0",
                 "shasum": null
             },
             "require": {
@@ -946,7 +971,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "airesvsg/acf-to-rest-api": 10
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
